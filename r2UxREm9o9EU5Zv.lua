@@ -21,5 +21,5 @@ elseif game.PlaceId == 16280073867 then -- Build A Bridge Simulator
 elseif game.PlaceId == 17415466926 then -- Dragon Merge Tycoon
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/DragonMergeTycoon.txt",true))()
 elseif game.PlaceId == 13926416231 then -- Duck Army
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/DuckArmy.lua",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/DuckArmy.txt",true))()
 end
