@@ -56,6 +56,7 @@ createGameButton("Meme Race", 18778623849, "https://raw.githubusercontent.com/jk
 createGameButton("Destruction Simulator", 2248408710, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/DestructionSimulator.txt")
 createGameButton("Clicking Gods", 9150032572, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/ClickingGods.txt")
 createGameButton("Strongest Smacker Simulator", 18134655434, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/StrongestSmackSim.txt")
+createGameButton("Track Race", 18254034839, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/TrackRace.txt")
 
 gamesSection:Button("Swim League", "Load script for Swim League", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt", true))()
