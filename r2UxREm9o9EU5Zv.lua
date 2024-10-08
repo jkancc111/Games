@@ -34,4 +34,6 @@ elseif game.PlaceId == 9150032572 then -- Clicking Gods
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/ClickingGods.txt",true))()
 elseif game.PlaceId == 18134655434 then -- Strongest Smacker Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/StrongestSmackSim.txt",true))()
+elseif game.PlaceId == 132495346586140 then -- Swim League
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt",true))()
 end
