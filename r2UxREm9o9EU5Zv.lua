@@ -57,6 +57,7 @@ createGameButton("Destruction Simulator", 2248408710, "https://raw.githubusercon
 createGameButton("Clicking Gods", 9150032572, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/ClickingGods.txt")
 createGameButton("Strongest Smacker Simulator", 18134655434, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/StrongestSmackSim.txt")
 createGameButton("Track Race", 18254034839, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/TrackRace.txt")
+createGameButton("[RELEASE] RNG Odyssey", 16055525893, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/RNGOdsseys.txt")
 
 gamesSection:Button("Swim League", "Load script for Swim League", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt", true))()
