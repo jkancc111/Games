@@ -3,7 +3,7 @@ _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/incrimination/HawkHUB-fork/refs/heads/main/LibSources/HawkLib.lua", true))()
 
 local Window = Hawk:Window({
-    ScriptName = "Hawk HUB",
+    ScriptName = "Lomu HUB",
     DestroyIfExists = true,
     Theme = "Dark"
 })
@@ -58,6 +58,7 @@ createGameButton("Clicking Gods", 9150032572, "https://raw.githubusercontent.com
 createGameButton("Strongest Smacker Simulator", 18134655434, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/StrongestSmackSim.txt")
 createGameButton("Track Race", 18254034839, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/TrackRace.txt")
 createGameButton("[RELEASE] RNG Odyssey", 16055525893, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/RNGOdsseys.txt")
+createGameButton("PETS GO! ✨ [NEW]", 18901165922, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/PetsGo.txt")
 
 gamesSection:Button("Swim League", "Load script for Swim League", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt", true))()
