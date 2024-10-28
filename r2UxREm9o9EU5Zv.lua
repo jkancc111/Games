@@ -64,6 +64,7 @@ createGameButton("🖐️Slap Away Simulator", 106205749987586, "https://raw.git
 createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/EveryClick%2B1Jump.txt")
 createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/EveryClick%2B1Jump.txt")
 createGameButton("Monster Slayer[UD1]", 16125758204, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/MonsterSlayer.txt")
+createGameButton("Sword Clashers Simulator ⚔️", 17800899459, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwordClashSim.txt")
 
 gamesSection:Button("Swim League", "Load script for Swim League", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt", true))()
