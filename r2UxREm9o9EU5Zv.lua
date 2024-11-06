@@ -24,6 +24,24 @@ Window:Minimize({
 
 local tab1 = Window:Tab("Games")
 
+
+local function CreateRecomend(placeName, placeId, scriptUrl)
+    Recome:Button(placeName, "Load script for " .. placeName, function()
+        if game.PlaceId == placeId then
+            loadstring(game:HttpGet(scriptUrl, true))()
+        else
+            Hawk:AddNotifications():Notification("Error", "Wrong game!", "Error", 3)
+        end
+        Window:Destroy()
+    end)
+end
+
+local Recome = tab1:Section("🔥 Frequently executed scripts")
+
+CreateRecomend("PETS GO! ✨ [NEW]", 18901165922, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/PetsGo.txt")
+CreateRecomend("[🎃] Fisch", 16732694052, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/Fisch.txt")
+CreateRecomend("🔥 Blox Fruits", 2753915549, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/BloxFruit.txt")
+
 local gamesSection = tab1:Section("Supported Games")
 
 local function createGameButton(placeName, placeId, scriptUrl)
@@ -58,8 +76,6 @@ createGameButton("Clicking Gods", 9150032572, "https://raw.githubusercontent.com
 createGameButton("Strongest Smacker Simulator", 18134655434, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/StrongestSmackSim.txt")
 createGameButton("Track Race", 18254034839, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/TrackRace.txt")
 createGameButton("[RELEASE] RNG Odyssey", 16055525893, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/RNGOdsseys.txt")
-createGameButton("PETS GO! ✨ [NEW]", 18901165922, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/PetsGo.txt")
-createGameButton("[🎃] Fisch", 16732694052, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/Fisch.txt")
 createGameButton("🖐️Slap Away Simulator", 106205749987586, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SlapAwaySim.txt")
 createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/EveryClick%2B1Jump.txt")
 createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/EveryClick%2B1Jump.txt")
