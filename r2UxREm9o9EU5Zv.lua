@@ -23,7 +23,7 @@ Window:Minimize({
 })
 
 local tab1 = Window:Tab("Games")
-
+local Recome = tab1:Section("🔥 Frequently executed scripts")
 
 local function CreateRecomend(placeName, placeId, scriptUrl)
     Recome:Button(placeName, "Load script for " .. placeName, function()
@@ -35,8 +35,6 @@ local function CreateRecomend(placeName, placeId, scriptUrl)
         Window:Destroy()
     end)
 end
-
-local Recome = tab1:Section("🔥 Frequently executed scripts")
 
 CreateRecomend("PETS GO! ✨ [NEW]", 18901165922, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/PetsGo.txt")
 CreateRecomend("[🎃] Fisch", 16732694052, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/Fisch.txt")
@@ -78,11 +76,7 @@ createGameButton("Track Race", 18254034839, "https://raw.githubusercontent.com/j
 createGameButton("[RELEASE] RNG Odyssey", 16055525893, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/RNGOdsseys.txt")
 createGameButton("🖐️Slap Away Simulator", 106205749987586, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SlapAwaySim.txt")
 createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/EveryClick%2B1Jump.txt")
-createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/EveryClick%2B1Jump.txt")
 createGameButton("Monster Slayer[UD1]", 16125758204, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/MonsterSlayer.txt")
 createGameButton("Sword Clashers Simulator ⚔️", 17800899459, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwordClashSim.txt")
 
-gamesSection:Button("Swim League", "Load script for Swim League", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt", true))()
-    Window:Destroy() 
-end)
+createGameButton("Swim League", 0, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt")
