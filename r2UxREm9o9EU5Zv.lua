@@ -40,7 +40,7 @@ CreateRecomend("PETS GO! ✨ [NEW]", 18901165922, "https://raw.githubusercontent
 CreateRecomend("[🎃] Fisch", 16732694052, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/Fisch.txt")
 CreateRecomend("🔥 Blox Fruits", 2753915549, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/BloxFruit.txt")
 
-local gamesSection = tab1:Section("Supported Games")
+local gamesSection = tab1:Section("Supported Games (if it doesn't load, try running it again)")
 
 local function createGameButton(placeName, placeId, scriptUrl)
     gamesSection:Button(placeName, "Load script for " .. placeName, function()
@@ -54,6 +54,7 @@ local function createGameButton(placeName, placeId, scriptUrl)
 end
 
 -- Create buttons for each game
+createGameButton("[RELEASE] Anime Shadow", 89438510123061, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/AnimeShadow.txt")
 createGameButton("Factory RNG", 18481040458, "https://raw.githubusercontent.com/jkancc111/Games/main/FactoryRNG.lua")
 createGameButton("Dungeon RNG", 17534163435, "https://raw.githubusercontent.com/jkancc111/Games/main/DungeonRNG.lua")
 createGameButton("Lick Simulator", 16466634211, "https://raw.githubusercontent.com/jkancc111/Games/main/LickSimulator.lua")
