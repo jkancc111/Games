@@ -81,4 +81,6 @@ createGameButton("Every Click +1 Jump 🚀", 18768675350, "https://raw.githubuse
 createGameButton("Monster Slayer[UD1]", 16125758204, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/MonsterSlayer.txt")
 createGameButton("Sword Clashers Simulator ⚔️", 17800899459, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwordClashSim.txt")
 
+createGameButton("[🏴‍☠️] Fisch", 16732694052, "https://raw.githubusercontent.com/jkancc111/Games/main/http_proxies.txt")
+
 createGameButton("Swim League", 0, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/SwimLeague.txt")
