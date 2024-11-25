@@ -54,6 +54,8 @@ local function createGameButton(placeName, placeId, scriptUrl)
 end
 
 -- Create buttons for each game
+createGameButton("Grass Cutting Simulator 🍃", 15277359883, "https://raw.githubusercontent.com/jkancc111/Games/main/CuttingGrassSim.txt")
+
 createGameButton("[UPD] Pixel Prisons ⛏️", 134877494536867, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/PixelPrison.txt")
 createGameButton("[RELEASE] Anime Shadow", 89438510123061, "https://raw.githubusercontent.com/jkancc111/Games/refs/heads/main/AnimeShadow.txt")
 createGameButton("Factory RNG", 18481040458, "https://raw.githubusercontent.com/jkancc111/Games/main/FactoryRNG.lua")
