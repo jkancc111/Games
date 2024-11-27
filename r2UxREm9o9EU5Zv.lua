@@ -23,6 +23,29 @@ Window:Minimize({
 })
 
 local tab1 = Window:Tab("Games")
+local infoTab = Window:Tab("ℹ️ Information")
+
+-- Add information sections
+local execInfo = infoTab:Section("⚠️ Executor Requirements")
+execInfo:Label("• This script requires an executor with 100% UNC support")
+execInfo:Label("• If you see 'hands up skid' in console, your executor")
+execInfo:Label("  doesn't support obfuscated scripts")
+
+local scriptInfo = infoTab:Section("📝 Script Information")
+scriptInfo:Label("• Version: 1.0.0")
+scriptInfo:Label("• Last Updated: 2024")
+scriptInfo:Label("• Created by: Lomu")
+
+local troubleInfo = infoTab:Section("🔧 Troubleshooting")
+troubleInfo:Label("• If script fails to load, try running it again")
+troubleInfo:Label("• Make sure you're in the correct game")
+troubleInfo:Label("• Check if your executor is updated")
+troubleInfo:Label("• Join our Discord for support")
+
+local creditsInfo = infoTab:Section("👥 Credits")
+creditsInfo:Label("• UI Library: HawkLib")
+creditsInfo:Label("• Special thanks to all contributors")
+
 local Recome = tab1:Section("🔥 Frequently executed scripts")
 
 local function CreateRecomend(placeName, placeId, scriptUrl)
