@@ -31,6 +31,7 @@ local function CreateRecomend(placeName, placeId, scriptUrl)
             loadstring(game:HttpGet(scriptUrl, true))()
         else
             Hawk:AddNotifications():Notification("Error", "Wrong game!", "Error", 3)
+            game.Players.LocalPlayer:Kick("Wrong game! Please join the correct game to use this script.")
         end
         Window:Destroy()
     end)
@@ -48,6 +49,7 @@ local function createGameButton(placeName, placeId, scriptUrl)
             loadstring(game:HttpGet(scriptUrl, true))()
         else
             Hawk:AddNotifications():Notification("Error", "Wrong game!", "Error", 3)
+            game.Players.LocalPlayer:Kick("Wrong game! Please join the correct game to use this script.")
         end
         Window:Destroy()
     end)
