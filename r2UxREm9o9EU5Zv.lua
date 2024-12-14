@@ -79,6 +79,8 @@ local function createGameButton(placeName, placeId, scriptUrl)
 end
 
 -- Create buttons for each game
+createGameButton("Maze Simulator", 109644231059364, "https://raw.githubusercontent.com/jkancc111/Games/main/MazeSimulator.lua")
+
 createGameButton("YouTube Race Simulator", 134853721259762, "https://raw.githubusercontent.com/jkancc111/Games/main/YoutubeRaceSim.lua")
 
 createGameButton("[🎄PART 2!] Christmas Clicker", 125829047001810, "https://raw.githubusercontent.com/jkancc111/Games/main/ChristmastClicker.txt")
