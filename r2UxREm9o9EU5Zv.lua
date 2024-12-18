@@ -79,6 +79,8 @@ local function createGameButton(placeName, placeId, scriptUrl)
 end
 
 -- Create buttons for each game
+createGameButton("🗝️Lootify[🎄UPD]", 16498193900, "https://raw.githubusercontent.com/jkancc111/Games/main/Lootify.txt")
+
 createGameButton("[🎄XMAS] Anime Slashing Simulator", 18956736354, "https://raw.githubusercontent.com/jkancc111/Games/main/AnimeSlashSim.lua")
 
 createGameButton("Maze Simulator", 109644231059364, "https://raw.githubusercontent.com/jkancc111/Games/main/MazeSimulator.lua")
