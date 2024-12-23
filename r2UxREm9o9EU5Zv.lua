@@ -79,6 +79,8 @@ local function createGameButton(placeName, placeId, scriptUrl)
 end
 
 -- Create buttons for each game
+createGameButton("Mewing Simulator", 15905908514, "https://raw.githubusercontent.com/jkancc111/Games/main/MewingSimulator.txt")
+
 createGameButton("🗝️Lootify[🎄UPD]", 16498193900, "https://raw.githubusercontent.com/jkancc111/Games/main/Lootify.txt")
 
 createGameButton("[🎄XMAS] Anime Slashing Simulator", 18956736354, "https://raw.githubusercontent.com/jkancc111/Games/main/AnimeSlashSim.lua")
