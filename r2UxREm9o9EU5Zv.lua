@@ -24,6 +24,30 @@ Window:Minimize({
 
 local tab1 = Window:Tab("Games")
 local infoTab = Window:Tab("ℹ️ Information")
+local newsTab = Window:Tab("📰 News")
+
+-- Add news sections
+local updateNews = newsTab:Section("🔔 Important Updates")
+updateNews:Label("📢 Lomu Hub V2 has been released!")
+updateNews:Label("• New checkpoint system")
+updateNews:Label("• New key system")
+updateNews:Label("• Regular game updates")
+updateNews:Label("• More stable and secure")
+
+local v1Notice = newsTab:Section("⚠️ Lomu Hub V1 Notice")
+v1Notice:Label("• Games in this version (V1)")
+v1Notice:Label("• will no longer receive updates")
+v1Notice:Label("• Because of different key system from V2")
+v1Notice:Label("")
+v1Notice:Label("Need your favorite games in V2?")
+v1Notice:Label("Create a ticket in our Discord to request")
+v1Notice:Label("game migration to V2 for continued updates!")
+
+local discordSection = newsTab:Section("🌐 Join Our Discord")
+discordSection:Button("Copy Discord URL", "Click to copy our Discord invite link", function()
+    setclipboard("https://discord.gg/rqWfNzpNX4")
+    Hawk:AddNotifications():Notification("Success", "Discord URL copied to clipboard!", "Info", 3)
+end)
 
 -- Add information sections
 local execInfo = infoTab:Section("⚠️ Executor Requirements")
