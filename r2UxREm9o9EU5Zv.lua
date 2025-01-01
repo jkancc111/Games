@@ -3,7 +3,7 @@ _Hawk = "ohhahtuhthttouttpwuttuaunbotwo"
 local Hawk = loadstring(game:HttpGet("https://raw.githubusercontent.com/incrimination/HawkHUB-fork/refs/heads/main/LibSources/HawkLib.lua", true))()
 
 local Window = Hawk:Window({
-    ScriptName = "Lomu HUB",
+    ScriptName = "Lomu HUB V1",
     DestroyIfExists = true,
     Theme = "Dark"
 })
